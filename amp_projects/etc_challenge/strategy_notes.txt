@@ -1,0 +1,35 @@
+Types of Securities:
+
+1. Bond = Bond
+2. Stock = GS, MS, WFC
+3. ADR = VALBZ, VALE
+
+STRATEGY
+The basic strategy is:
+
+Have some idea of a fair value for each security
+Attempt to buy the security for less than fair, and sell it at more than fair
+
+Fair Values:
+- between the best bid and best offer
+
+---ETFS---
+- contains different securities, which have known values 
+--> multiply values by number of shares in ETF and add to get the fair value of the ETF
+
+---NON-ETFS---
+bond = 1000
+others = take mid of highest and lowest selling prices & buying prices
+
+Trading With Your Fair Value:
+edge is the profit you earn from completing a trade 
+edge = dir_sign * (fair value - order price)
+where dir_sign = 1 for buying and -1 for selling
+
+pennying:
+sending a buy order for current best bid + 1 and/or a sell order at current best offer - 1
+
+taking:
+not worth it
+
+PORTFOLIO
